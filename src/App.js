@@ -33,9 +33,6 @@ export default function App() {
         .includes(searchParam.toLowerCase());
     });
     setFilteredResults(filteredData);
-    // currentPosts =
-    //   filteredResults &&
-    //   filteredResults.slice(indexOfFirstPost, indexOfLastPost);
   };
 
   const handleChange = (e) => {
@@ -68,7 +65,6 @@ export default function App() {
       </div>
 
       <Pagination
-        // length={searchParam !== '' ? filteredResults?.lenght : data?.length}
         length={data?.length}
         postsPerPage={postsPerPage}
         handlePagination={handlePagination}

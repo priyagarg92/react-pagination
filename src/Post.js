@@ -15,8 +15,3 @@ const Post = ({ posts }) => {
 };
 
 export default Post;
-
-// (
-//   currentPosts &&
-//   currentPosts.map((post) => <Post key={post.id} post={post} />)
-// )
