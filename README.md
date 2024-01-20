@@ -1,3 +1,3 @@
 # react-pagination
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/priyagarg92/react-pagination)
+[React Custom Hook to Fetch Data, Search Filter, Pagination, and Error Boundary Handling]
